@@ -1,0 +1,1 @@
+text="Hello from RTU MIREA!"; text_length=${#text}; border=$(printf "+-%${text_length}s-+" "" | tr " " "-"); echo "$border"; echo "| $text |"; echo "$border"
