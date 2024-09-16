@@ -1,1 +1,0 @@
-grep -o -E '\b[_a-zA-Z][_a-zA-Z0-9]*\b' hello.c | uniq

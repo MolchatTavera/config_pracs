@@ -1,5 +1,0 @@
-chmod +x ~/banner
-
-sudo cp ~/banner /usr/local/bin/
-
-sudo chmod 755 /usr/local/bin/banner
