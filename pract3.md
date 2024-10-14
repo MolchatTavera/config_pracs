@@ -99,7 +99,7 @@ BNF = """
 E = 0 | 1 | 0 E | s1 E
 """
 ```
-
+![image](https://github.com/MolchatTavera/configuration-management-practical-work-number-1/pract3/pic3.1.png)
 
 # Задание 4
 Пример грамматики в BNF:
@@ -113,7 +113,7 @@ BNF = '''
 E = | ( E ) | { E } | E E
 '''
 ```
-
+![image](https://github.com/MolchatTavera/configuration-management-practical-work-number-1/pract3/pic3.2.png)
 
 # Задание 5
 Пример грамматики в BNF:
@@ -133,5 +133,5 @@ F = x | y | ~ G | G
 G = ( E ) | x | y
 '''
 ```
-
+![image](https://github.com/MolchatTavera/configuration-management-practical-work-number-1/pract3/pic3.3.png)
 
