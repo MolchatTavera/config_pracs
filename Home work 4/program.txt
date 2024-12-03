@@ -1,0 +1,58 @@
+; Программа: поэлементное побитовое НЕ над вектором длины 6
+
+; Инициализация вектора длины 6 в памяти с адреса 1000
+LOAD_CONST 10
+WRITE_MEM 1000
+
+LOAD_CONST 20
+WRITE_MEM 1001
+
+LOAD_CONST 30
+WRITE_MEM 1002
+
+LOAD_CONST 40
+WRITE_MEM 1003
+
+LOAD_CONST 50
+WRITE_MEM 1004
+
+LOAD_CONST 60
+WRITE_MEM 1005
+
+; Обработка первого элемента
+LOAD_CONST 1000    ; Адрес первого элемента
+READ_MEM 1000
+NOT 0              ; Побитовое НЕ над значением
+WRITE_MEM 1000     ; Запись результата обратно
+
+; Обработка второго элемента
+LOAD_CONST 1001
+READ_MEM 1001
+NOT 0
+WRITE_MEM 1001
+
+; Обработка третьего элемента
+LOAD_CONST 1002
+READ_MEM 1002
+NOT 0
+WRITE_MEM 1002
+
+; Обработка четвертого элемента
+LOAD_CONST 1003
+READ_MEM 1003
+NOT 0
+WRITE_MEM 1003
+
+; Обработка пятого элемента
+LOAD_CONST 1004
+READ_MEM 1004
+NOT 0
+WRITE_MEM 1004
+
+; Обработка шестого элемента
+LOAD_CONST 1005
+READ_MEM 1005
+NOT 0
+WRITE_MEM 1005
+
+HALT

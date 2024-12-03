@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <computer_name>MyUnixEmulator</computer_name>
+    <vfs_path>/home/mh/virtual_fs.tar</vfs_path>
+    <log_path>/home/mh/shell_log.json</log_path>
+</config>

@@ -1,0 +1,5 @@
+var x = 10
+var y = (list 20 30)
+(list #{x} #{y} 40)
+
+(list 1 (list 2 3) 4)
